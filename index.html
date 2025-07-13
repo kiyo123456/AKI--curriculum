@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ph1 posse Website</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/sp/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="transparent">
+        <a class="posse_img" href="./index.html">
+            <img src="assets/img/logo.svg" alt="POSSE">
+        </a>
+        <button id="button">
+            <span ></span>
+            <span ></span>
+            <span ></span>
+        </button>
+        <nav class="menu">
+            <ul class="mokuji">
+                <li><a href="">POSSEとは</a></li>
+                <li><a href="">イベント</a></li>
+                <li><a href="">日常生活</a></li>
+            </ul>
+            <div class="menu_content2">
+                <div class="header_line_add">
+                    <a href="https://line.me/R/ti/p/@651htnqp?from=page">
+                        LINE追加
+                    </a>
+                </div>
+                <a class="POSSEsite" href=" https://posse.community/">
+                    POSSEの公式サイトへ
+                </a>
+                <ul class="sns_img">
+                    <li>
+                        <a  href="https://twitter.com/posse_2024">
+                            <img src="./assets/img/icon-twitter.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/posse_programming/">
+                            <img src="./assets/img/icon-instagram.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="top" id="main_visual">
+            <h1>学生プログラミングコミュニティPOSSE</h1>
+            <div>
+                <p class="catchphrase">〜自分史上最高を仲間と〜</p>
+                <p class="SCROLL">SCROLL DOWN</p>
+            </div>
+        </section>
+        <section class="about_posse">
+            <div class="title">
+                <h1 class="title_ja" id="title_ja">POSSEとは</h1>
+                <h2 class="title_en">About POSSE</h2>
+            </div>
+            <div class="explanation">
+                <img src="./assets/img/img-about.jpg" alt="POSSEの日常風景">
+                <p>
+                    学生プログラミングコミュニティ「POSSE(ポッセ)」は、
+                    人格とプログラミング、二つの面での成長をスローガンに活動しており、
+                    大学生だけが集まって学びを深めるコミュニティです。
+                    プログラミングだけではありません。オフラインでのイベントや、
+                    旅行など様々な企画を行っています！
+                    それらを通じて、夏休みの大半をPOSSEで出来た仲間と過ごす人も
+                    たくさんいるほどメンバーとの仲が深まります。
+                </p>
+            </div>
+        </section>
+        <section class="splide" aria-label="Event Slider" id="about_event">
+            <div class="title">
+                <h1 class="title_ja">イベント</h1>
+                <h2 class="title_en">Event</h2>
+                <p>POSSE では、年内に数多くのイベントを行っています。<br>
+                    こちらに掲示してあるのはイベントの一部です。プログラミングだけでなく、<br>
+                    これらのイベントを共に経験し、仲間との友情はより深まります。
+                </p>
+            </div>
+            <div class="splide__track" id="year_event">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="./assets/img/img-event01.jpg" alt="入学式">
+                        <p class="date">May</p>
+                        <p class="name">入学式</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/img/img-event02.jpg" alt="ハッカソン">
+                        <p class="date">June</p>
+                        <p class="name">ハッカソン</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/img/img-event03.jpg" alt="課題サポート会">
+                        <p class="date">May</p>
+                        <p class="name">課題サポート会</p>
+                    </li>
+                    <li class="splide__slide">
+                        <img src="./assets/img/img-event04.jpg" alt="チーム開発">
+                        <p class="date">March-May</p>
+                        <p class="name">チーム開発</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="splide" aria-label="Daily life Slider" id="about_daily_life">
+            <div class="title">
+                <h1 class="title_ja">日常生活</h1>
+                <h2 class="title_en">Daily Life</h2>
+                <p class="daily_event_explanation">
+                    様々な日々の活動について紹介します。POSSE では、プログラミングを
+                    学んでいくにあたってメンバー同士が共に学習するような時間を数多く設けています。
+                    入会時期が半年毎にあるため、縦の繋がりから学べることは非常に多く、この繋がりを
+                    意識した班を構成したり、それとは別に同期のみの班を構成して共に学習するような
+                    システムを採用しています。
+                </p>
+            </div>
+            <div class="splide__track" id="daily_event">
+                <ul class="splide__list">
+                    <li class="splide__slide daily_event_content">
+                        <div class="some_daily_event">
+                            <h1><span class="number">01</span>ミートアップ</h1>
+                            <ul>
+                                <li>毎週月曜日 19:30 ～ 22:30</li>
+                                <li>全員参加</li>
+                            </ul>
+                            <p>
+                                全体ミーティングです。<br>
+                                各局からのお知らせや、講演会など目白押しです。
+                            </p>
+                        </div>
+                        <div class="img_area">
+                            <img src="./assets/img/img-daily01.jpg" alt="ミートアップ">
+                        </div>
+                    </li>
+                    <li class="splide__slide daily_event_content">
+                        <div class="some_daily_event">
+                            <h1><span class="number">02</span>縦モク</h1>
+                            <ul><li>週１回２時間</li></ul>
+                            <p>
+                                zoom を繋ぎ、わからないところを先輩に質問できます。<br>
+                                わかるまで丁寧に教えてくれます。
+                            </p>
+                        </div>
+                        <div class="img_area">
+                            <img src="./assets/img/img-daily02.jpg" alt="縦モク">
+                        </div>
+                    </li>
+                    <li class="splide__slide daily_event_content">
+                        <div class="some_daily_event">
+                            <h1><span class="number">03</span>横もく</h1>
+                            <ul><li>週一回３時間</li></ul>
+                            <p>
+                                同期と 3 ～ 4 人一組で学習しながら、<br>
+                                わからないところを共有、質問できます。<br>
+                                オフラインで集合したり、共にハッカソンに挑んだりします。
+                            </p>
+                        </div>
+                        <div class="img_area">
+                            <img src="./assets/img/img-daily03.jpg" alt="横モク">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about_line">
+            <h2>
+                <img src="./assets/img/icon-line.svg" alt="LINE">
+                <p>POSSE公式LINE</p>
+            </h2>
+            <div class="line_text">
+                公式LINEにてご質問を随時受け付けております。<br>
+                詳細や POSSE 最新情報につきましては、公式LINEにてお知らせ致しますので<br>
+                下記ボタンより友達追加をお願いします!
+            </div>
+            <div class="line_add">
+                <a href="https://line.me/R/ti/p/@651htnqp?from=page">LINE追加</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a class="POSSElogo" href="./index.html">
+            <img src="./assets/img/logo.svg" alt="POSSE">
+        </a>
+        <a class="POSSEsite" href=" https://posse.community/">
+            <p>POSSEの公式サイトへ</p>
+        </a>
+        <ul class="SNS">
+            <li>
+                <a href="https://twitter.com/posse_2024">
+                    <img src="./assets/img/icon-twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/posse_programming/">
+                    <img src="./assets/img/icon-instagram.png" alt="instagram">
+                </a>
+            </li>
+        </ul>
+        <small>&copy;2025 POSSE</small>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
